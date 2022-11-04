@@ -17,11 +17,9 @@ COINS - ERC20 coins which you would like to track down (tether,usd-coin)
 
 ## Endpoints
 
-**/coins/:wallet**
+``/coins/:wallet``
 
-_Returns balances for a certain wallet_
+_Returns balances for a certain wallet_.
 Specify which coins balance would you like to get apart from ethereum with query params.
 
-So for example
-_/coins/:wallet?coins=tether,usd-coin_
-Would return info about ethereum balance of the wallet along with USDT and USDC balances.
+So, for example ``/coins/:wallet?coins=tether,usd-coin`` would return info about ethereum balance of the wallet along with USDT and USDC balances.
